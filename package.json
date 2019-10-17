@@ -1,0 +1,21 @@
+{
+  "name": "excelhandler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "excelhandler": "./bin/index.js"
+  },
+  "keywords": [
+    "excel",
+    "column"
+  ],
+  "author": "linqc",
+  "license": "MIT",
+  "dependencies": {
+    "node-xlsx": "^0.15.0"
+  }
+}
