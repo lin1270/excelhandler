@@ -17,3 +17,32 @@ excelhandler
 setColumn excelFileName sheetNameOrIndexFrom0 beginRowFrom0 columnIndexFrom0 txt
     e.g.    setColumn a.xls 0 4 1 hehe
 ```
+
+
+批量修改：
+```
+batch cfg.json
+```
+
+cfg.json:
+```
+{
+	"cmd":"setColumn",
+	"args":[
+		{
+			"file":"a.xlsx",
+			"sheet":"0",
+			"beginRow":"2",
+			"column":"3",
+			"text":"hehe"
+		},
+		{
+			"file":"a.xlsx",
+			"sheet":"0",
+			"beginRow":"2",
+			"column":"4",
+			"text":"hehe"
+		}
+	]
+}
+```

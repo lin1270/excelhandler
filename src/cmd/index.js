@@ -1,5 +1,6 @@
 
 module.exports = [
     require('./help'),
-    require('./setColumn')
+    require('./setColumn'),
+    require('./batch'),
 ]

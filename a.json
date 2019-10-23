@@ -1,0 +1,19 @@
+{
+	"cmd":"setColumn",
+	"args":[
+		{
+			"file":"a.xlsx",
+			"sheet":"0",
+			"beginRow":"2",
+			"column":"3",
+			"text":"hehe"
+		},
+		{
+			"file":"a.xlsx",
+			"sheet":"0",
+			"beginRow":"2",
+			"column":"4",
+			"text":"hehe"
+		}
+	]
+}
