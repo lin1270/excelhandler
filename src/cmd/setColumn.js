@@ -13,7 +13,7 @@ var setColumn = {
         }
         if (argv.length !== 6) {
             console.log('参数不正确。')
-            console.log('setColumn setColumn excelFileName sheetNameOrIndexFrom1 beginRowFrom1 columnNameOrIndexFrom1 txt')
+            console.log('excelhandler setColumn excelFileName sheetNameOrIndexFrom1 beginRowFrom1 columnNameOrIndexFrom1 txt')
             return
         }
         

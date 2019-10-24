@@ -12,7 +12,7 @@
 			"file":"a.xlsx",
 			"sheet": "1",
 			"beginRow":"2",
-			"column":"AA",
+			"column":"AB",
 			"text":"?hehe?"
 		}
 	]
