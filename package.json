@@ -1,6 +1,6 @@
 {
   "name": "excelhandler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,6 @@
   "author": "linqc",
   "license": "MIT",
   "dependencies": {
-    "node-xlsx": "^0.15.0"
+    "exceljs": "^3.2.0"
   }
 }

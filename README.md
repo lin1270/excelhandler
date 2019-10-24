@@ -14,8 +14,8 @@ excelhandler
 
 直接打命令，会弹出使用说明
 ```
-setColumn excelFileName sheetNameOrIndexFrom0 beginRowFrom0 columnIndexFrom0 txt
-    e.g.    setColumn a.xls 0 4 1 hehe
+setColumn excelFileName sheetNameOrIndexFrom1 beginRowFrom1 columnNameOrIndexFrom1 txt
+    e.g.    setColumn a.xls 1 4 A hehe
 ```
 
 
@@ -31,17 +31,17 @@ cfg.json:
 	"args":[
 		{
 			"file":"a.xlsx",
-			"sheet":"0",
-			"beginRow":"2",
-			"column":"3",
-			"text":"hehe"
+			"sheet":"工作表1",
+			"beginRow":"4",
+			"column":"G",
+			"text":"-hehe-"
 		},
 		{
 			"file":"a.xlsx",
-			"sheet":"0",
-			"beginRow":"2",
-			"column":"4",
-			"text":"hehe"
+			"sheet": 1,
+			"beginRow":2,
+			"column":"AA",
+			"text":"?hehe?"
 		}
 	]
 }

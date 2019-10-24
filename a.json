@@ -3,17 +3,17 @@
 	"args":[
 		{
 			"file":"a.xlsx",
-			"sheet":"0",
-			"beginRow":"2",
-			"column":"3",
-			"text":"hehe"
+			"sheet":"工作表1",
+			"beginRow":"4",
+			"column":"G",
+			"text":"-hehe-"
 		},
 		{
 			"file":"a.xlsx",
-			"sheet":"0",
+			"sheet": "1",
 			"beginRow":"2",
-			"column":"4",
-			"text":"hehe"
+			"column":"AA",
+			"text":"?hehe?"
 		}
 	]
 }

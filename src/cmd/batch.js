@@ -30,8 +30,6 @@ var batch = {
 
         if (cfgInfo.cmd == 'setColumn') {
             this.runOne(cfgInfo, 0, this.runOne)
-
-            
         }
     },
 
